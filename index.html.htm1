@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蔚蓝档案 同人站点</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #152040, #283b70);
+            color: #f0f6ff;
+            font-family: "Microsoft Yahei", sans-serif;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .site-title {
+            text-align: center;
+            padding: 50px 0;
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            text-shadow: 0 0 15px #74b9ff;
+        }
+        .nav-menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 60px;
+        }
+        .nav-btn {
+            padding: 14px 32px;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid #91bfff;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .nav-btn:hover {
+            background: rgba(116, 185, 255, 0.25);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(116, 185, 255, 0.3);
+        }
+        .intro-card {
+            background: rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 30px;
+            border: 1px solid rgba(145, 191, 255, 0.3);
+            line-height: 1.8;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 80px;
+            padding: 20px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="site-title">蔚蓝档案</h1>
+
+        <div class="nav-menu">
+            <div class="nav-btn">学生图鉴</div>
+            <div class="nav-btn">剧情故事</div>
+            <div class="nav-btn">高清图集</div>
+            <div class="nav-btn">学园设定</div>
+            <div class="nav-btn">留言板块</div>
+        </div>
+
+        <div class="intro-card">
+            <h2 style="margin-bottom:15px;">站点简介</h2>
+            <p>欢迎来到蔚蓝档案同人站点，这里收录角色档案、主线支线剧情、原画壁纸与世界观相关内容。</p >
+            <p style="margin-top:10px;">仅供爱好者浏览观赏，非商业用途，尊重原作版权。</p >
+        </div>
+
+        <div class="footer">
+            蔚蓝档案爱好者站点 · 所有内容仅供个人观赏
+        </div>
+    </div>
+</body>
+</html>
